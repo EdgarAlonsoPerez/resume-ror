@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/Cellar/node/16.5.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add --dev webpack-dev-server
+
+PATH: 
+  /Users/logan/.rvm/gems/ruby-2.7.0/bin:/Users/logan/.rvm/gems/ruby-2.7.0@global/bin:/Users/logan/.rvm/rubies/ruby-2.7.0/bin:/Users/logan/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "resume",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
